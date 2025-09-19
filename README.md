@@ -21,8 +21,8 @@ Backend: Node.js, Express.js, PostgreSQL, csv-parser
 Development Tools: Nodemon, dotenv
 
 🖼️ Screenshots
-Search & Filter	Course Comparison	Ask AI
-
+Search & Filter, Course Comparison, Ask AI
+https://github.com/Bhanodhar/coursequest-lite/blob/2d74cc5a5f2424a531b353d9cea83ae7e294aed3/Screenshot%202025-09-19%20143727.png
 	
 ⚡ Setup
 1. Clone & Install
