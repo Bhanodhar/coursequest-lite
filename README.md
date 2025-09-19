@@ -21,8 +21,8 @@ Backend: Node.js, Express.js, PostgreSQL, csv-parser
 Development Tools: Nodemon, dotenv
 
 🖼️ Screenshots
-Search & Filter, Course Comparison, Ask AI
-https://github.com/Bhanodhar/coursequest-lite/blob/2d74cc5a5f2424a531b353d9cea83ae7e294aed3/Screenshot%202025-09-19%20143727.png
+Search & Filter
+<img width="1830" height="869" alt="Image" src="https://github.com/user-attachments/assets/3715005b-7d40-41fc-81be-05db6c505fa8" />
 	
 ⚡ Setup
 1. Clone & Install
@@ -84,3 +84,9 @@ Search and filter courses
 Add courses to Compare
 
 Use Ask AI for natural language queries
+
+Course Comparison Screensshot
+<img width="1786" height="852" alt="Image" src="https://github.com/user-attachments/assets/53246b1d-1866-4578-90cc-d04f8f5389a2" />
+
+ASK AI Page
+<img width="1787" height="817" alt="Image" src="https://github.com/user-attachments/assets/72c77ddd-8aa0-4a6b-96da-d9ab0485d3fd" />
