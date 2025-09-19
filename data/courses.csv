@@ -1,0 +1,81 @@
+course_id,course_name,department,level,delivery_mode,credits,duration_weeks,rating,tuition_fee_inr,year_offered
+1,Introduction to Programming,Computer Science,UG,online,4,12,4.2,45000,2024
+2,Data Structures and Algorithms,Computer Science,UG,offline,5,15,4.7,60000,2024
+3,Advanced Machine Learning,Computer Science,PG,hybrid,6,15,4.8,85000,2024
+4,Calculus I,Mathematics,UG,offline,4,12,3.9,40000,2024
+5,Renaissance Art History,Arts,UG,online,3,10,4.1,35000,2024
+6,Organic Chemistry,Chemistry,UG,offline,5,15,3.7,55000,2024
+7,Marketing Fundamentals,Business,UG,hybrid,4,12,4.0,48000,2024
+8,Financial Accounting,Business,UG,online,4,12,4.3,42000,2024
+9,Quantum Physics,Physics,PG,offline,6,15,4.5,75000,2024
+10,Software Engineering,Computer Science,UG,hybrid,5,15,4.6,58000,2024
+11,Database Management Systems,Computer Science,UG,online,4,14,4.3,52000,2024
+12,Computer Networks,Computer Science,UG,offline,5,16,4.1,62000,2024
+13,Artificial Intelligence,Computer Science,PG,hybrid,6,15,4.7,92000,2024
+14,Web Development,Computer Science,UG,online,4,12,4.4,48000,2024
+15,Cloud Computing,Computer Science,PG,online,5,14,4.6,78000,2024
+16,Calculus II,Mathematics,UG,offline,4,12,3.8,42000,2024
+17,Linear Algebra,Mathematics,UG,hybrid,4,13,4.0,44000,2024
+18,Probability and Statistics,Mathematics,UG,online,4,12,4.2,46000,2024
+19,Discrete Mathematics,Mathematics,UG,offline,5,14,4.1,50000,2024
+20,Advanced Calculus,Mathematics,PG,offline,6,15,4.3,68000,2024
+21,Digital Painting,Arts,UG,online,3,10,4.5,38000,2024
+22,Music Theory,Arts,UG,hybrid,3,12,4.2,42000,2024
+23,Theater Arts,Arts,UG,offline,4,14,4.0,45000,2024
+24,Art History Survey,Arts,UG,online,3,10,4.1,36000,2024
+25,Creative Writing,Arts,UG,hybrid,3,12,4.3,40000,2024
+26,General Chemistry,Chemistry,UG,offline,4,12,3.6,48000,2024
+27,Physical Chemistry,Chemistry,UG,offline,5,14,3.8,52000,2024
+28,Analytical Chemistry,Chemistry,PG,hybrid,6,15,4.2,72000,2024
+29,Biochemistry,Chemistry,PG,offline,6,16,4.4,78000,2024
+30,Inorganic Chemistry,Chemistry,UG,online,4,12,3.9,50000,2024
+31,Principles of Management,Business,UG,hybrid,4,12,4.1,52000,2024
+32,Business Ethics,Business,UG,online,3,10,4.2,42000,2024
+33,Corporate Finance,Business,PG,offline,6,15,4.5,85000,2024
+34,Entrepreneurship,Business,UG,hybrid,4,13,4.3,58000,2024
+35,Supply Chain Management,Business,PG,online,5,14,4.4,72000,2024
+36,Classical Mechanics,Physics,UG,offline,5,14,4.2,58000,2024
+37,Electromagnetism,Physics,UG,offline,5,15,4.1,60000,2024
+38,Thermodynamics,Physics,PG,hybrid,6,16,4.3,78000,2024
+39,Quantum Mechanics,Physics,PG,offline,6,15,4.6,82000,2024
+40,Astrophysics,Physics,UG,online,4,12,4.4,52000,2024
+41,Microeconomics,Economics,UG,hybrid,4,12,4.0,48000,2024
+42,Macroeconomics,Economics,UG,online,4,12,4.1,46000,2024
+43,Econometrics,Economics,PG,offline,6,15,4.3,75000,2024
+44,Development Economics,Economics,PG,hybrid,5,14,4.2,70000,2024
+45,International Trade,Economics,UG,online,4,12,4.1,50000,2024
+46,Introduction to Psychology,Psychology,UG,online,4,12,4.3,45000,2024
+47,Cognitive Psychology,Psychology,UG,hybrid,4,13,4.2,52000,2024
+48,Abnormal Psychology,Psychology,UG,offline,5,14,4.1,58000,2024
+49,Clinical Psychology,Psychology,PG,offline,6,16,4.5,82000,2024
+50,Social Psychology,Psychology,UG,online,4,12,4.0,48000,2024
+51,Cell Biology,Biology,UG,offline,4,12,3.9,50000,2024
+52,Genetics,Biology,UG,hybrid,5,14,4.1,55000,2024
+53,Evolutionary Biology,Biology,UG,online,4,12,4.2,52000,2024
+54,Microbiology,Biology,PG,offline,6,15,4.4,72000,2024
+55,Ecology,Biology,UG,hybrid,4,13,4.0,54000,2024
+56,Constitutional Law,Law,UG,offline,5,15,4.3,65000,2024
+57,Criminal Law,Law,UG,hybrid,5,14,4.2,62000,2024
+58,Corporate Law,Law,PG,offline,6,16,4.6,88000,2024
+59,International Law,Law,PG,online,5,14,4.4,78000,2024
+60,Environmental Law,Law,UG,online,4,12,4.1,58000,2024
+61,Digital Electronics,Electrical Engineering,UG,offline,5,14,4.2,62000,2024
+62,Circuit Analysis,Electrical Engineering,UG,hybrid,5,15,4.1,60000,2024
+63,Power Systems,Electrical Engineering,PG,offline,6,16,4.5,85000,2024
+64,Control Systems,Electrical Engineering,PG,hybrid,6,15,4.4,82000,2024
+65,Signal Processing,Electrical Engineering,UG,online,4,12,4.3,58000,2024
+66,Mechanics of Materials,Mechanical Engineering,UG,offline,5,14,4.0,60000,2024
+67,Thermodynamics,Mechanical Engineering,UG,hybrid,5,15,4.1,62000,2024
+68,Fluid Mechanics,Mechanical Engineering,PG,offline,6,16,4.4,84000,2024
+69,Heat Transfer,Mechanical Engineering,PG,hybrid,6,15,4.3,80000,2024
+70,Machine Design,Mechanical Engineering,UG,online,4,12,4.2,58000,2024
+71,Introduction to Sociology,Sociology,UG,online,4,12,4.1,42000,2024
+72,Social Theory,Sociology,UG,hybrid,4,13,4.0,48000,2024
+73,Urban Sociology,Sociology,UG,offline,5,14,4.2,52000,2024
+74,Gender Studies,Sociology,PG,online,5,14,4.4,68000,2024
+75,Criminology,Sociology,UG,hybrid,4,12,4.1,50000,2024
+76,Public Speaking,Communication,UG,online,3,10,4.3,38000,2024
+77,Journalism,Communication,UG,hybrid,4,12,4.2,45000,2024
+78,Media Studies,Communication,UG,offline,4,13,4.1,48000,2024
+79,Digital Marketing,Communication,PG,online,5,14,4.5,72000,2024
+80,Intercultural Communication,Communication,UG,hybrid,3,12,4.0,42000,2024
