@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // This is the base URL for our backend API
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.VITE_API_URL || 'http://localhost:5000';
 
 const SearchPage = ({ addToComparison, comparisonList }) => {
   // STATE
