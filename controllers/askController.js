@@ -15,18 +15,18 @@ async function askQuestion(req, res, next) {
     const parsedFilters = parseQuestion(question);
 
     // 3. Use the parsed filters to query the database
-    const { results: courses, count } = await queryCoursesWithFilters(parsedFilters, 1, 20);
+    const courses = await queryCoursesWithFilters(parsedFilters, 1, 20);
 
     // 4. Format the response
     const response = {
       interpretation: `We found courses for: ${Object.entries(parsedFilters).map(([key, value]) => `${key}: ${value}`).join(', ') || 'No specific filters parsed'}`,
       filters: parsedFilters,
       results: courses,
-      count: count
+      count: courses.length
     };
 
     // 5. If no results were found, still send a 200 OK
-    if (!courses || courses.length === 0) {
+    if (courses.length === 0) {
       response.interpretation = "No matching courses found based on your question. Try adjusting your criteria.";
     }
 

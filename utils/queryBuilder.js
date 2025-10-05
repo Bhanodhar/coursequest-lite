@@ -45,24 +45,18 @@ async function queryCoursesWithFilters(filters = {}, page = 1, limit = 10) {
   }
 
   // Calculate pagination
-  // Build the WHERE clause once so we can use it for both the count and the paged query
-  const whereClause = queryParts.length > 0 ? ' WHERE ' + queryParts.join(' AND ') : '';
-
-  // Get total count for the filters (so frontend can compute total pages)
-  const countQuery = 'SELECT COUNT(*)::int AS count FROM courses' + whereClause;
-  const countResult = await pool.query(countQuery, queryParams);
-  const totalCount = (countResult.rows[0] && countResult.rows[0].count) || 0;
-
-  // Calculate pagination
   const offset = (page - 1) * limit;
-  // Build the final query string for paged results
-  let queryString = 'SELECT * FROM courses' + whereClause;
+  // Build the final query string
+  let queryString = 'SELECT * FROM courses';
+  if (queryParts.length > 0) {
+    queryString += ' WHERE ' + queryParts.join(' AND ');
+  }
   queryString += ` ORDER BY course_id LIMIT $${paramCounter} OFFSET $${paramCounter + 1}`;
   queryParams.push(limit, offset);
 
-  // Execute the paged query
+  // Execute the query
   const result = await pool.query(queryString, queryParams);
-  return { results: result.rows, count: totalCount };
+  return result.rows;
 }
 
 module.exports = { queryCoursesWithFilters };

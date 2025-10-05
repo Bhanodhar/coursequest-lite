@@ -18,9 +18,8 @@ async function getCourses(req, res, next) {
     const page = parseInt(req.query.page, 10) || 1;
     const limit = parseInt(req.query.limit, 10) || 10;
 
-  const { results, count } = await queryCoursesWithFilters(filters, page, limit);
-  // Return an object { results, count } so frontend can correctly paginate
-  res.json({ results, count });
+    const courses = await queryCoursesWithFilters(filters, page, limit);
+    res.json(courses);
 
   } catch (err) {
     next(err);

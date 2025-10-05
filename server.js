@@ -16,6 +16,22 @@ const bodyParser = require('body-parser');
 // Apply middleware
 app.use(cors());
 app.use(bodyParser.json());
+// If you want to restrict CORS to specific origins, replace the above line
+
+// With this:
+app.use(cors({
+  origin: [
+    'https://your-vercel-app.vercel.app',
+    'http://localhost:5173'
+  ],
+  credentials: true
+}));
+
+
+// Add this before your routes in server.js
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
+});
 
 // 3. IMPORT ROUTES
 const coursesRoutes = require('./routes/courses');
