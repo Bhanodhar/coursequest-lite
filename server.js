@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 // With this:
 app.use(cors({
   origin: [
-    'https://your-vercel-app.vercel.app',
+    'https://coursequest-lite-rust.vercel.app/',
     'http://localhost:5173'
   ],
   credentials: true
