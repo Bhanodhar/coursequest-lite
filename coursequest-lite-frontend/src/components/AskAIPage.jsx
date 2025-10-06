@@ -52,7 +52,7 @@ const AskAIPage = () => {
       <div className="card">
         <div className="card-body">
           <h5 className="card-title">Ask AI About Courses</h5>
-          <p className="card-text text-muted mb-3">Ask questions in plain English like: "Show me online computer science courses with rating above 4"</p>
+          <p className="card-text text-muted mb-3">Ask questions in plain English like: "Show me online computer science courses below 50000"</p>
 
           <form onSubmit={handleSubmit} className="mb-3">
             <div className="mb-2">
