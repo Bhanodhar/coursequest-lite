@@ -29,6 +29,10 @@ app.use(cors({
 
 
 // Add this before your routes in server.js
+app.get('/', (req, res) => {
+  res.send('🚀 CourseQuest API is running successfully!');
+});
+
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
 });
